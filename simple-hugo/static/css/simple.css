@@ -1,0 +1,62 @@
+html {
+  font-family: Monospace, /* Linux = DejaVu Sans Mono */
+               Courier;   /* MacOSX & Windows = Courier */
+}
+body {
+  font-size: 16;
+  max-width: 900px;  /* For Desktop PC (see @media for Tablets/Phones) */
+  padding-left: 2ch;
+  padding-right: 3ch;
+  margin: 0 auto;
+  background: #F5F5F5;
+}
+
+a {
+  color: black;
+  font-weight: bold;
+}
+
+img {
+  border: none;
+}
+
+p {
+  /*
+  margin-top: 0px;
+  margin-bottom: 2ch;
+   */
+  text-align: justify;
+}
+
+/*
+sup {
+  vertical-align: 0.3em;
+  font-size: 0.65em;
+}
+
+pre {
+  font-size: 16;
+  background-color: white;
+  border: 1px solid Black;
+  padding-left: 2ch;
+  padding-top: 1ch;
+  padding-bottom: 1ch;
+}
+
+div {
+  text-transform: uppercase;
+}
+
+.title {
+  text-decoration: none;
+}
+*/
+
+@media (max-width: 500px) { /* For small screen decices */
+    body {
+        font-size: 12px;
+      }
+    pre {
+      font-size: 12px;
+    }
+}
