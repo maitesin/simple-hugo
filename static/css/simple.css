@@ -3,7 +3,7 @@ html {
                Courier;   /* MacOSX & Windows = Courier */
 }
 body {
-  font-size: 16;
+  font-size: 16px;
   max-width: 900px;  /* For Desktop PC (see @media for Tablets/Phones) */
   padding-left: 2ch;
   padding-right: 3ch;
@@ -46,11 +46,19 @@ pre {
 div {
   text-transform: uppercase;
 }
+*/
+
+.head-title {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 20px;
+}
 
 .title {
   text-decoration: none;
+  text-transform: uppercase;
 }
-*/
+
 
 @media (max-width: 500px) { /* For small screen decices */
     body {

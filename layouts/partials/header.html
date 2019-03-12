@@ -1,0 +1,11 @@
+<center>
+  <div style="display: inline-block; vertical-align:middle;">
+    <a href="/" class="head-title">{{ .Title }}</a>
+    <hr/>
+    <div style="text-align: justify;display: inline-block; width: 100%;">
+      {{ range .Site.Menus.main }}
+      <a class="title" href="{{ .URL }}">{{ .Name }}</a>
+      {{ end }}
+    </div>
+  </div>
+</center>
