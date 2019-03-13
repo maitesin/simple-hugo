@@ -48,10 +48,21 @@ div {
 }
 */
 
+.head-title-wrapper {
+  display: inline-block;
+  vertical-align:middle;
+}
+
 .head-title {
   text-decoration: none;
   text-transform: uppercase;
   font-size: 20px;
+}
+
+.title-wrapper {
+  text-align: justify;
+  display: inline-block;
+  width: 100%;
 }
 
 .title {
