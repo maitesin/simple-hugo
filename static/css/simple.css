@@ -70,6 +70,15 @@ div {
   text-transform: uppercase;
 }
 
+.post-list {
+  padding-top: 5em;
+}
+
+.post-link{
+  padding-left: 1em;
+  text-decoration: none;
+}
+
 
 @media (max-width: 500px) { /* For small screen decices */
     body {
