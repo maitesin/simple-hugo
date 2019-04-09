@@ -82,9 +82,12 @@ div {
 
 @media (max-width: 500px) { /* For small screen decices */
     body {
-        font-size: 12px;
-      }
+      font-size: 12px;
+    }
     pre {
+      font-size: 12px;
+    }
+    .post-item {
       font-size: 12px;
     }
     .head-title {
