@@ -1,6 +1,12 @@
 <head>
   <title>{{ .Site.Title }}</title>
 
-  <!-- Import the required CSS -->
+  <!-- Simple CSS -->
   <link rel="stylesheet" href="{{ .Site.BaseURL }}css/simple.css" />
+
+  <!-- Code highlighting -->
+  <link rel="stylesheet"
+      href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/styles/solarized-dark.min.css">
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/highlight.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
 </head>
