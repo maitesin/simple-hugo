@@ -4,7 +4,7 @@
     <hr/>
     <div style="title-wrapper">
       {{ range .Site.Menus.main }}
-      <a class="title" href="{{ .URL }}">{{ .Name }}</a>
+      <a class="title" href="{{ .URL | relURL }}">{{ .Name }}</a>
       {{ end }}
     </div>
   </div>
