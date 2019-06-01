@@ -82,7 +82,14 @@ div {
 .resume-programming-item label {
   width: 125px;
   float: left;
-  display: blo
+  display: block;
+}
+
+.resume-courses-item label {
+  width: 150px;
+  float: left;
+  display: block;
+}
 
 @media screen and (max-width: 500px) { /* For small screen decices */
     body {
