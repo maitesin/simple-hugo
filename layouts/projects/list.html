@@ -1,0 +1,16 @@
+{{ define "main" }}
+
+<div class="project-grid">
+  {{ range where .Pages "Section" "projects" }}
+  <div class="project-grid-item">
+    <a href="{{ .Permalink }}">
+      <img class="project-image" width="300" height="200" src="{{ .Description | relURL }}"></img>
+      <div class="project-overlay">
+        <div class="project-text">{{ .Title }}</div>
+      </div>
+    </a>
+  </div>
+  {{ end }}
+</div>
+
+{{ end }}
