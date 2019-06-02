@@ -165,3 +165,8 @@ p {
 .project-container p {
   text-align: justify;
 }
+
+.content-image {
+  display: block;
+  margin: 0.7rem auto;
+}
