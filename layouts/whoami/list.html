@@ -1,12 +1,10 @@
 {{ define "main" }}
 
 <h1 class="title">$(whoami)</h1>
-<div class="post-list">
-  {{ range where .Pages "Section" "blog" }}
-  <div class="post-item">
-    <span class="post-date">{{ .Date.Format "02/01/2006" }}</span><a class="post-link" href={{ .Permalink }}>{{ .Title }}</a>
-  </div>
-  {{ end }}
+<div class="content">
+  <p>I am a software engineer working at GlobalSign in the High Performance Platform. I am interested in Operating Systems, Algorithms and Data Structures development, Distributed Systems, Information Security, and Systems Programming.</p>
+  <img src="/img/avatar.jpg"/>
+  <p>In addition, I play handball for the Chelsea Handball Club in London. In my free time, I like to play Magic The Gathering, all sorts of board games, and videogames.</p>
 </div>
 
 {{ end }}
