@@ -1,5 +1,6 @@
 {{ define "main" }}
 
+<h1 class="title">$(whoami)</h1>
 <div class="post-list">
   {{ range where .Pages "Section" "blog" }}
   <div class="post-item">

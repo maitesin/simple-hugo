@@ -48,10 +48,10 @@ p {
 .title {
   text-decoration: none;
   text-transform: uppercase;
+  text-align: center;
 }
 
 .post-list {
-  padding-top: 5em;
 }
 
 .post-link{
@@ -101,14 +101,14 @@ p {
   grid-gap: 15px 15px;
 }
 
-@media (min-width: 59em) {
+@media (min-width: 41em) {
   .project-grid {
     grid-template-columns: 300px 300px;
     grid-template-rows: 200px 200px 200px;
   }
 }
 
-@media (min-width: 79em) {
+@media (min-width: 61em) {
   .project-grid {
     grid-template-columns: 300px 300px 300px;
     grid-template-rows: 200px 200px 200px;
