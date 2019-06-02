@@ -21,10 +21,6 @@ img {
 }
 
 p {
-  /*
-  margin-top: 0px;
-  margin-bottom: 2ch;
-   */
   text-align: justify;
 }
 
@@ -49,9 +45,6 @@ p {
   text-decoration: none;
   text-transform: uppercase;
   text-align: center;
-}
-
-.post-list {
 }
 
 .post-link{
@@ -86,8 +79,6 @@ p {
     }
 }
 
-
-
 /*
  * Projects
  *
@@ -117,10 +108,6 @@ p {
 
 .project-grid-item {
   position: relative;
-}
-
-.project-grid-item:hover {
-
 }
 
 .project-overlay {
@@ -169,4 +156,19 @@ p {
 .content-image {
   display: block;
   margin: 0.7rem auto;
+  width: 100%;
+  height: auto;
+  max-width: 40em;
+}
+
+.content img {
+  display: block;
+  margin: 0.7rem auto;
+  width: 100%;
+  height: auto;
+  max-width: 40em;
+}
+
+article table, th, td {
+  border: 1px solid black;
 }
