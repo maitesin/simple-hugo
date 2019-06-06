@@ -172,3 +172,22 @@ p {
 article table, th, td {
   border: 1px solid black;
 }
+
+footer {
+  width: 100%;
+  margin-top: 2em;
+}
+
+.footer-list {
+  padding:0;
+  margin:0;
+  display: flex;
+  list-style: none;
+  justify-content:center;
+}
+
+.footer-item a {
+  text-decoration: none;
+  margin-right: 0.4em;
+  font-size: 1.5em;
+}
