@@ -90,6 +90,7 @@ p {
   grid-template-columns: 300px;
   grid-template-rows: 200px 200px 200px 200px 200px 200px;
   grid-gap: 15px 15px;
+  justify-content: center;
 }
 
 @media (min-width: 41em) {
