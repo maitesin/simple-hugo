@@ -24,6 +24,10 @@ p {
   text-align: justify;
 }
 
+ul {
+  text-align: justify;
+}
+
 .head-title-wrapper {
   display: inline-block;
   vertical-align:middle;
