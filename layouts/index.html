@@ -2,7 +2,7 @@
 
 <h1 class="title">Blog</h1>
 <div class="post-list">
-  {{ range where .Pages "Section" "blog" }}
+  {{ range where .Site.RegularPages "Section" "blog" }}
   <div class="post-item">
     <span class="post-date">{{ .Date.Format "02/01/2006" }}</span><a class="post-link" href={{ .Permalink }}>{{ .Title }}</a>
   </div>
