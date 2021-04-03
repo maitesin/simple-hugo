@@ -1,6 +1,12 @@
 html {
-  font-family: Monospace, /* Linux = DejaVu Sans Mono */
-               Courier;   /* MacOSX & Windows = Courier */
+  font-family: 'Roboto',  /* First option */
+               Monospace, /* Linux fallback = DejaVu Sans Mono */
+               Courier;   /* MacOSX & Windows fallbacks = Courier */
+}
+code {
+  font-family: 'Ubuntu Mono', /* First option */
+               Monospace,     /* Linux fallback = DejaVu Sans Mono */
+               Courier;       /* MacOSX & Windows fallbacks = Courier */
 }
 body {
   font-size: 16px;
