@@ -83,6 +83,18 @@ ul {
     }
 }
 
+#TableOfContents ul {
+  padding-left: 1em;
+}
+
+#TableOfContents li {
+  list-style-type: none;
+}
+
+.content-info-date {
+  float: right;
+}
+
 /*
  * Projects
  *

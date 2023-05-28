@@ -4,6 +4,12 @@
   <h3>
     <span class="content-info-date">Date: {{ .Date.Format "02/01/2006" }}</span>
   </h3>
+  <aside>
+    <h2>
+      <span class="content">Table of Contents</span>
+    </h2>
+    {{ .TableOfContents }}
+  </aside>
   <article class="content">
     {{ .Content }}
   </article>
