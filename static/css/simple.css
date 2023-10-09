@@ -28,6 +28,10 @@ ul {
   text-align: justify;
 }
 
+code {
+  white-space : pre-wrap !important;
+}
+
 .head-title-wrapper {
   display: inline-block;
   vertical-align:middle;
