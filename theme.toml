@@ -5,14 +5,14 @@ name = "Simple Hugo"
 license = "BSD-2"
 licenselink = "https://gitlab.com/maitesin/simple-hugo/LICENSE"
 description = "Basic HUGO theme used in my personal website"
-homepage = "http://oscarforner.com/"
+homepage = "http://oscar.forner.es/"
 tags = []
 features = []
 min_version = "0.60"
 
 [author]
   name = "Oscar Forner Martinez <oscar.forner.martinez@gmail.com>"
-  homepage = "https://oscarforner.com"
+  homepage = "https://oscar.forner.es"
 
 # If porting an existing theme
 [original]
